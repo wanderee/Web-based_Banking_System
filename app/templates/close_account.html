@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}通知方式配置{% endblock %}
+
+
+{% block navbar %}
+<section class="content-header">
+    <h1>开户信息</h1>
+    <ol class="breadcrumb">
+        <li><i class="fa fa-dashboard"></i> 当前位置</li>
+        <li class="active">转账管理</li>
+    </ol>
+</section>
+{% endblock %}
+
+
+{% block content %}
+<div class="box box-primary">
+    <form method="post">
+        {{form.hidden_tag()}}
+        {{form.csrf_token }}
+        <div class="box-header with-border">
+            {% include 'message.html' %}
+        </div>
+
+        <div class="box-body">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>{{form.account_id.label}}</label>
+                    {{form.account_id(class_="form-control",placeholder="输入6位的账号")}}
+                </div>
+            </div>
+        </div>
+        <div class="box-footer">
+            <div class="col-md-12">
+                {{form.submit(class_="btn btn-primary pull-right")}}
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}

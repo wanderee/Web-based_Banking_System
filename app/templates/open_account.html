@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block title %}通知方式配置{% endblock %}
+
+
+{% block navbar %}
+<section class="content-header">
+    <h1>开户信息</h1>
+    <ol class="breadcrumb">
+        <li><i class="fa fa-dashboard"></i> 当前位置</li>
+        <li class="active">用户管理</li>
+        <li class="active">开户信息</li>
+    </ol>
+</section>
+{% endblock %}
+
+
+{% block content %}
+<div class="box box-primary">
+    <form method="post">
+        {{form.hidden_tag()}}
+        {{form.csrf_token }}
+        <div class="box-header with-border">
+            {% include 'message.html' %}
+        </div>
+
+        <div class="box-body">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>{{form.username.label}}</label>
+                    {{form.username(class_="form-control",placeholder="输入4~16位的用户名")}}
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>{{form.password.label}}</label>
+                    {{form.password(class_="form-control",placeholder="输入6~36位的密码")}}
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>{{form.confirm.label}}</label>
+                    {{form.confirm(class_="form-control",placeholder="再次输入密码")}}
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>{{form.fullname.label}}</label>
+                    {{form.fullname(class_="form-control",placeholder="输入真实姓名")}}
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>{{form.email.label}}</label>
+                    {{form.email(class_="form-control",placeholder="例如 123@example.com")}}
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>{{form.money.label}}</label>
+                    {{form.money(class_="form-control",placeholder="输入初始金额的数字")}}
+                </div>
+            </div>
+        </div>
+
+        <div class="box-footer">
+            <div class="col-md-12">
+                {{form.submit(class_="btn btn-primary pull-right")}}
+            </div>
+        </div>
+    </form>
+
+</div>
+{% endblock %}
