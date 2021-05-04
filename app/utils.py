@@ -3,9 +3,13 @@
 import html
 import json
 import datetime
+import collections
 from urllib.parse import unquote
+import peewee
 from flask import Response, flash
 import random
+import time
+from models import User
 
 ## 字符串转字典
 from app.models import Flow
@@ -102,16 +106,73 @@ def form_to_model(form, model):
     return model
 
 
-def open_account_form_to_model(form,model,authority,opener):
-    model.account_id = str(random.randint(1,999999)).zfill(6)
+def transaction_count(account_id):
+    r1, r2 = Flow.select().where(Flow.send_id == '000000'), Flow.select().where(Flow.receive_id == '000000')
+    flow_count = r1.count() + r2.count()
+    user_count = []
+    for flow_row in r1:
+        user_count.append(flow_row.receive_id)
+    for flow_row in r2:
+        user_count.append(flow_row.send_id)
+    user_count = len(collections.Counter(user_count).keys())
+    return user_count, flow_count
+
+
+def open_account(form, model, authority, opener):
+    """
+    :param form:
+    :param model:
+    :param authority:
+    :param opener:
+    :return:    0:success
+                1:用户名重复
+    """
+
+    new_account_id = str(random.randint(1, 999999)).zfill(6)
+    while User.get_or_none(User.account_id == new_account_id) is not None:
+        new_account_id = str(random.randint(1, 999999)).zfill(6)
+    model.account_id = new_account_id
+    if User.get_or_none(User.username == form.username.data) is not None:
+        return 1
     model.username = form.username.data
     model.gen_password(form.password.data)
     model.fullname = form.fullname.data
     model.email = form.email.data
     model.money = form.money.data
-    model.authority = str(authority+1)
+    model.authority = str(authority + 1)
     model.opener = opener
-    return model
+    model.save()
+    return 0
+
+
+def flow_save(flow, send_id, receive_id, money):
+    localtime = time.asctime(time.localtime(time.time()))
+    flow.time = localtime
+    flow.send_id = send_id
+    flow.receive_id = receive_id
+    flow.money = money
+    flow.save()
+
+
+def transfer_money(send_user, receive_user, money):
+    my_money = float(send_user.money)
+    receive_money = float(receive_user.money)
+    money_change = float(money)
+    if my_money < money_change:
+        return False
+    else:
+        my_money -= money_change
+        receive_money += money_change
+        send_user.money = my_money
+        print('{} send {} to {}'.format(my_money, money_change, receive_money))
+        receive_user.money = receive_money
+        send_user.save()
+        receive_user.save()
+        return True
+
+
+def get_flow_list(account_id):
+    return Flow.select().where((Flow.send_id == account_id) | (Flow.receive_id == account_id))
 
 
 # peewee模型转表单

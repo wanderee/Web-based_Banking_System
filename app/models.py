@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from peewee import MySQLDatabase, Model, CharField, BooleanField, IntegerField
+from peewee import MySQLDatabase, Model, CharField, BooleanField
 import json
 from werkzeug.security import check_password_hash, generate_password_hash
 from flask_login import UserMixin
@@ -9,14 +9,12 @@ from conf.config import config
 import os
 
 cfg = config[os.getenv('FLASK_CONFIG') or 'default']
-
 db = MySQLDatabase(host=cfg.DB_HOST, user=cfg.DB_USER, passwd=cfg.DB_PASSWD, database=cfg.DB_DATABASE)
 
 
 class BaseModel(Model):
     class Meta:
         database = db
-
     def __str__(self):
         r = {}
         for k in self._data.keys():
@@ -24,13 +22,12 @@ class BaseModel(Model):
                 r[k] = str(getattr(self, k))
             except:
                 r[k] = json.dumps(getattr(self, k))
-        # return str(r)
         return json.dumps(r, ensure_ascii=False)
 
 
 # 管理员工号
 class User(UserMixin, BaseModel):
-    account_id = CharField()  # 账户id
+    account_id = CharField(unique=True)  # 账户id
     username = CharField()  # 用户名
     password = CharField()  # 密码
     fullname = CharField()  # 真实性名

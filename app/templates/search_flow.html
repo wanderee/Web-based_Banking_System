@@ -1,10 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block title %}通知方式配置{% endblock %}
 
-</body>
-</html>
+
+{% block navbar %}
+<section class="content-header">
+    <h1>流水查询</h1>
+    <ol class="breadcrumb">
+        <li><i class="fa fa-dashboard"></i> 当前位置</li>
+        <li class="active">流水查询</li>
+    </ol>
+</section>
+{% endblock %}
+
+
+{% block content %}
+<div class="box box-primary">
+<!--    <div class="box-header with-border">-->
+<!--        {% include 'message.html' %}-->
+<!--    </div>-->
+    <div class="box-body">
+        <table class="table table-bordered">
+            <tr>
+                <th>转账时间</th>
+                <th>发送账号</th>
+                <th>接受账号</th>
+                <th>转账金额</th>
+            </tr>
+            {% for row in flow_list %}
+            <tr>
+                <td>{{row.time}}</td>
+                <td>{{row.send_id}}</td>
+                <td>{{row.receive_id}}</td>
+                <td>{{row.money}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</div>
+{% endblock %}

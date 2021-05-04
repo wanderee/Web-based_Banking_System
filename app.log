@@ -1,0 +1,653 @@
+2021-05-04 09:10:34,358 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 09:10:34,624 werkzeug     INFO      * Restarting with stat
+2021-05-04 09:10:35,608 werkzeug     WARNING   * Debugger is active!
+2021-05-04 09:10:35,640 werkzeug     INFO      * Restarting with stat
+2021-05-04 09:10:35,670 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 09:10:35,687 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 09:10:36,066 werkzeug     WARNING   * Debugger is active!
+2021-05-04 09:10:36,068 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 09:10:36,076 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 09:10:37,609 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[32mGET / HTTP/1.1[0m" 302 -
+2021-05-04 09:10:37,684 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[37mGET /login?next=%2F HTTP/1.1[0m" 200 -
+2021-05-04 09:10:37,766 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[37mGET /static/plugins/pace/pace.min.css HTTP/1.1[0m" 200 -
+2021-05-04 09:10:37,769 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[37mGET /static/css/global.css HTTP/1.1[0m" 200 -
+2021-05-04 09:10:37,769 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[37mGET /static/plugins/iCheck/square/blue.css HTTP/1.1[0m" 200 -
+2021-05-04 09:10:37,775 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[37mGET /static/plugins/adminlte/css/skins/skin-blue.min.css HTTP/1.1[0m" 200 -
+2021-05-04 09:10:37,787 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[37mGET /static/plugins/adminlte/css/AdminLTE.min.css HTTP/1.1[0m" 200 -
+2021-05-04 09:10:37,789 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+2021-05-04 09:10:37,815 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[37mGET /static/js/global.js HTTP/1.1[0m" 200 -
+2021-05-04 09:10:37,823 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[37mGET /static/plugins/iCheck/icheck.min.js HTTP/1.1[0m" 200 -
+2021-05-04 09:10:37,828 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[37mGET /static/plugins/pace/pace.min.js HTTP/1.1[0m" 200 -
+2021-05-04 09:10:37,830 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+2021-05-04 09:10:37,838 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[37mGET /static/plugins/jQuery/jquery-2.2.3.min.js HTTP/1.1[0m" 200 -
+2021-05-04 09:10:37,891 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[37mGET /static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1[0m" 200 -
+2021-05-04 09:10:37,943 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:37] "[37mGET /static/plugins/iCheck/square/blue.png HTTP/1.1[0m" 200 -
+2021-05-04 09:10:38,252 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-05-04 09:10:47,367 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['widespeed', 1, 0])
+2021-05-04 09:10:47,576 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[32mPOST /login?next=%2F HTTP/1.1[0m" 302 -
+2021-05-04 09:10:47,579 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:10:47,603 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[32mGET / HTTP/1.1[0m" 302 -
+2021-05-04 09:10:47,607 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:10:47,658 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 09:10:47,698 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /static/plugins/ionicons/css/ionicons.min.css HTTP/1.1[0m" 200 -
+2021-05-04 09:10:47,702 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+2021-05-04 09:10:47,702 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /static/plugins/bootstrap-switch/bootstrap-switch.min.css HTTP/1.1[0m" 200 -
+2021-05-04 09:10:47,706 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /static/plugins/bootstrap-slider/slider.css HTTP/1.1[0m" 200 -
+2021-05-04 09:10:47,711 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /static/plugins/select2/select2.min.css HTTP/1.1[0m" 200 -
+2021-05-04 09:10:47,715 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /static/plugins/slimScroll/jquery.slimscroll.min.js HTTP/1.1[0m" 200 -
+2021-05-04 09:10:47,722 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /static/plugins/fastclick/fastclick.js HTTP/1.1[0m" 200 -
+2021-05-04 09:10:47,739 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /static/plugins/bootstrap-switch/bootstrap-switch.min.js HTTP/1.1[0m" 200 -
+2021-05-04 09:10:47,739 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /static/plugins/adminlte/js/app.min.js HTTP/1.1[0m" 200 -
+2021-05-04 09:10:47,740 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /static/images/avatar.jpg HTTP/1.1[0m" 200 -
+2021-05-04 09:10:47,755 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /static/plugins/select2/select2.full.min.js HTTP/1.1[0m" 200 -
+2021-05-04 09:10:47,761 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /static/plugins/bootstrap-slider/bootstrap-slider.js HTTP/1.1[0m" 200 -
+2021-05-04 09:10:47,782 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:10:47,783 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+2021-05-04 09:10:47,788 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 09:10:47,789 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:10:47] "[37mGET /static/plugins/ionicons/fonts/ionicons.ttf?v=2.0.0 HTTP/1.1[0m" 200 -
+2021-05-04 09:15:47,810 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 09:15:47,875 werkzeug     INFO      * Restarting with stat
+2021-05-04 09:15:48,025 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 09:15:48,064 werkzeug     INFO      * Restarting with stat
+2021-05-04 09:15:48,349 werkzeug     WARNING   * Debugger is active!
+2021-05-04 09:15:48,352 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 09:15:48,360 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 09:15:48,554 werkzeug     WARNING   * Debugger is active!
+2021-05-04 09:15:48,560 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 09:15:48,570 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 09:17:14,742 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 09:17:14,773 werkzeug     INFO      * Restarting with stat
+2021-05-04 09:17:14,997 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 09:17:15,027 werkzeug     INFO      * Restarting with stat
+2021-05-04 09:34:13,142 werkzeug     INFO      * Restarting with stat
+2021-05-04 09:34:13,558 werkzeug     WARNING   * Debugger is active!
+2021-05-04 09:34:13,561 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 09:34:13,573 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 09:34:14,798 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:34:14,815 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:34:14] "[32mGET / HTTP/1.1[0m" 302 -
+2021-05-04 09:34:14,818 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:34:14,943 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:34:14] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 09:34:15,104 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:34:15,138 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:34:15] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 09:34:17,983 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:34:17,995 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:34:17] "[37mGET /search_money HTTP/1.1[0m" 200 -
+2021-05-04 09:34:20,829 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:34:20,879 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:34:20] "[37mGET /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:34:51,219 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:34:51,239 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:34:51] "[37mGET /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:35:37,942 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\forms.py', reloading
+2021-05-04 09:35:38,021 werkzeug     INFO      * Restarting with stat
+2021-05-04 09:35:38,488 werkzeug     WARNING   * Debugger is active!
+2021-05-04 09:35:38,490 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 09:35:38,499 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 09:35:40,081 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:35:40,115 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:35:40] "[37mGET /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:35:52,646 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:35:52,677 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['717670', 1, 0])
+2021-05-04 09:35:52,678 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['000000', 'widespeed', 'pbkdf2:sha256:150000$kBqM0IMB$2a01f42e5a8bb534d9776c29e5964b2095cf640aefc3ab108bce8073154f7185', '超级管理员', 'admin@admin.com', '0', '1000000109000.0', '0', True, 1])
+2021-05-04 09:35:52,707 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['717670', 'shi123', 'pbkdf2:sha256:150000$ZidnjQUd$e5af32b5fbe9541af4b64ec2de8f594f31396742bc69a40a0b6449173ec04bd9', '', '', '1', '110500.0', '1', True, 3])
+2021-05-04 09:35:52,759 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:35:52] "[35m[1mPOST /transfer_account HTTP/1.1[0m" 500 -
+2021-05-04 09:35:52,802 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:35:52] "[37mGET /transfer_account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-05-04 09:35:52,813 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:35:52] "[37mGET /transfer_account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-05-04 09:35:52,836 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:35:52] "[37mGET /transfer_account?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-05-04 09:35:52,923 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:35:52] "[37mGET /transfer_account?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-05-04 09:35:52,942 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:35:52] "[37mGET /transfer_account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-04 09:35:53,008 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:35:53] "[37mGET /transfer_account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-04 09:37:29,269 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 09:37:29,314 werkzeug     INFO      * Restarting with stat
+2021-05-04 09:37:29,801 werkzeug     WARNING   * Debugger is active!
+2021-05-04 09:37:29,803 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 09:37:29,813 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 09:37:30,804 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:37:30,816 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['717670', 1, 0])
+2021-05-04 09:37:30,817 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['000000', 'widespeed', 'pbkdf2:sha256:150000$kBqM0IMB$2a01f42e5a8bb534d9776c29e5964b2095cf640aefc3ab108bce8073154f7185', '超级管理员', 'admin@admin.com', '0', '1000000108500.0', '0', True, 1])
+2021-05-04 09:37:30,824 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['717670', 'shi123', 'pbkdf2:sha256:150000$ZidnjQUd$e5af32b5fbe9541af4b64ec2de8f594f31396742bc69a40a0b6449173ec04bd9', '', '', '1', '111000.0', '1', True, 3])
+2021-05-04 09:37:30,845 peewee       DEBUG    ('INSERT INTO `flow` (`time`, `send_id`, `receive_id`, `money`, `status`) VALUES (%s, %s, %s, %s, %s)', ['Tue May  4 09:37:30 2021', '000000', '3', '500', True])
+2021-05-04 09:37:30,904 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:37:30] "[37mPOST /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:48:25,227 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\utils.py', reloading
+2021-05-04 09:48:25,264 werkzeug     INFO      * Restarting with stat
+2021-05-04 09:48:25,764 werkzeug     WARNING   * Debugger is active!
+2021-05-04 09:48:25,767 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 09:48:25,774 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 09:48:30,164 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:48:30,179 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:48:30] "[32mGET / HTTP/1.1[0m" 302 -
+2021-05-04 09:48:30,182 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:48:30,213 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:48:30] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 09:48:30,369 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:48:30,381 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:48:30] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 09:50:26,739 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:50:26,764 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:50:26] "[37mGET /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:50:31,411 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:50:31,419 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['717670', 1, 0])
+2021-05-04 09:50:31,420 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['000000', 'widespeed', 'pbkdf2:sha256:150000$kBqM0IMB$2a01f42e5a8bb534d9776c29e5964b2095cf640aefc3ab108bce8073154f7185', '超级管理员', 'admin@admin.com', '0', '1000000108000.0', '0', True, 1])
+2021-05-04 09:50:31,426 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['717670', 'shi123', 'pbkdf2:sha256:150000$ZidnjQUd$e5af32b5fbe9541af4b64ec2de8f594f31396742bc69a40a0b6449173ec04bd9', '', '', '1', '111500.0', '1', True, 3])
+2021-05-04 09:50:31,435 peewee       DEBUG    ('INSERT INTO `flow` (`time`, `send_id`, `receive_id`, `money`, `status`) VALUES (%s, %s, %s, %s, %s)', ['Tue May  4 09:50:31 2021', '000000', '3', '500', True])
+2021-05-04 09:50:31,441 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:50:31] "[37mPOST /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:51:46,376 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:51:46,389 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['717670', 1, 0])
+2021-05-04 09:51:46,390 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['000000', 'widespeed', 'pbkdf2:sha256:150000$kBqM0IMB$2a01f42e5a8bb534d9776c29e5964b2095cf640aefc3ab108bce8073154f7185', '超级管理员', 'admin@admin.com', '0', '1000000107500.0', '0', True, 1])
+2021-05-04 09:51:46,394 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['717670', 'shi123', 'pbkdf2:sha256:150000$ZidnjQUd$e5af32b5fbe9541af4b64ec2de8f594f31396742bc69a40a0b6449173ec04bd9', '', '', '1', '112000.0', '1', True, 3])
+2021-05-04 09:51:46,397 peewee       DEBUG    ('INSERT INTO `flow` (`time`, `send_id`, `receive_id`, `money`, `status`) VALUES (%s, %s, %s, %s, %s)', ['Tue May  4 09:51:46 2021', '000000', '3', '500', True])
+2021-05-04 09:51:46,405 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:51:46] "[37mPOST /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:51:46,980 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 09:51:47,014 werkzeug     INFO      * Restarting with stat
+2021-05-04 09:51:47,452 werkzeug     WARNING   * Debugger is active!
+2021-05-04 09:51:47,454 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 09:51:47,462 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 09:52:23,137 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:52:23,162 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['717670', 1, 0])
+2021-05-04 09:52:23,163 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['000000', 'widespeed', 'pbkdf2:sha256:150000$kBqM0IMB$2a01f42e5a8bb534d9776c29e5964b2095cf640aefc3ab108bce8073154f7185', '超级管理员', 'admin@admin.com', '0', '1000000107000.0', '0', True, 1])
+2021-05-04 09:52:23,167 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['717670', 'shi123', 'pbkdf2:sha256:150000$ZidnjQUd$e5af32b5fbe9541af4b64ec2de8f594f31396742bc69a40a0b6449173ec04bd9', '', '', '1', '112500.0', '1', True, 3])
+2021-05-04 09:52:23,178 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:52:23] "[35m[1mPOST /transfer_account HTTP/1.1[0m" 500 -
+2021-05-04 09:52:23,204 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:52:23] "[37mGET /transfer_account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-05-04 09:52:23,205 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:52:23] "[37mGET /transfer_account?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-05-04 09:52:23,206 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:52:23] "[37mGET /transfer_account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-05-04 09:52:23,275 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:52:23] "[37mGET /transfer_account?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-05-04 09:52:23,345 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:52:23] "[37mGET /transfer_account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-04 09:52:23,450 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:52:23] "[37mGET /transfer_account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-04 09:53:04,671 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 09:53:04,710 werkzeug     INFO      * Restarting with stat
+2021-05-04 09:53:05,152 werkzeug     WARNING   * Debugger is active!
+2021-05-04 09:53:05,155 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 09:53:05,163 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 09:53:12,958 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:53:12,973 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:53:12] "[32mGET / HTTP/1.1[0m" 302 -
+2021-05-04 09:53:12,976 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:53:13,002 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:53:13] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 09:53:13,134 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:53:13,149 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:53:13] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 09:53:14,030 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:53:14,051 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:53:14] "[37mGET /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:53:17,568 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:53:17,577 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['717670', 1, 0])
+2021-05-04 09:53:17,578 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['000000', 'widespeed', 'pbkdf2:sha256:150000$kBqM0IMB$2a01f42e5a8bb534d9776c29e5964b2095cf640aefc3ab108bce8073154f7185', '超级管理员', 'admin@admin.com', '0', '1000000106500.0', '0', True, 1])
+2021-05-04 09:53:17,581 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['717670', 'shi123', 'pbkdf2:sha256:150000$ZidnjQUd$e5af32b5fbe9541af4b64ec2de8f594f31396742bc69a40a0b6449173ec04bd9', '', '', '1', '113000.0', '1', True, 3])
+2021-05-04 09:53:17,584 peewee       DEBUG    ('INSERT INTO `flow` (`time`, `send_id`, `receive_id`, `money`, `status`) VALUES (%s, %s, %s, %s, %s)', ['Tue May  4 09:53:17 2021', '000000', '717670', '500', True])
+2021-05-04 09:53:17,594 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:53:17] "[37mPOST /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:54:17,384 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\utils.py', reloading
+2021-05-04 09:54:17,412 werkzeug     INFO      * Restarting with stat
+2021-05-04 09:54:17,845 werkzeug     WARNING   * Debugger is active!
+2021-05-04 09:54:17,848 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 09:54:17,856 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 09:54:33,134 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:54:33,143 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['717670', 1, 0])
+2021-05-04 09:54:33,144 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['000000', 'widespeed', 'pbkdf2:sha256:150000$kBqM0IMB$2a01f42e5a8bb534d9776c29e5964b2095cf640aefc3ab108bce8073154f7185', '超级管理员', 'admin@admin.com', '0', '1000000106000.0', '0', True, 1])
+2021-05-04 09:54:33,149 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['717670', 'shi123', 'pbkdf2:sha256:150000$ZidnjQUd$e5af32b5fbe9541af4b64ec2de8f594f31396742bc69a40a0b6449173ec04bd9', '', '', '1', '113500.0', '1', True, 3])
+2021-05-04 09:54:33,155 peewee       DEBUG    ('INSERT INTO `flow` (`time`, `send_id`, `receive_id`, `money`, `status`) VALUES (%s, %s, %s, %s, %s)', ['Tue May  4 09:54:33 2021', '000000', '717670', '500', True])
+2021-05-04 09:54:33,182 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:54:33] "[37mPOST /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:54:42,053 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:54:42,056 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['148132', 1, 0])
+2021-05-04 09:54:42,059 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:54:42] "[37mPOST /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:54:50,184 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:54:50,187 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['246363', 1, 0])
+2021-05-04 09:54:50,189 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['000000', 'widespeed', 'pbkdf2:sha256:150000$kBqM0IMB$2a01f42e5a8bb534d9776c29e5964b2095cf640aefc3ab108bce8073154f7185', '超级管理员', 'admin@admin.com', '0', '1000000101000.0', '0', True, 1])
+2021-05-04 09:54:50,192 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['246363', 'wandow', 'pbkdf2:sha256:150000$Mbt7SWEX$09a494f2c46ea278a0554f018e034911f8cb41af9a5b79c7fa0eb91da4ee0284', '', '', '1', '84500.0', '1', True, 4])
+2021-05-04 09:54:50,195 peewee       DEBUG    ('INSERT INTO `flow` (`time`, `send_id`, `receive_id`, `money`, `status`) VALUES (%s, %s, %s, %s, %s)', ['Tue May  4 09:54:50 2021', '000000', '246363', '5000', True])
+2021-05-04 09:54:50,200 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:54:50] "[37mPOST /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:54:57,509 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:54:57,515 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['289119', 1, 0])
+2021-05-04 09:54:57,516 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['000000', 'widespeed', 'pbkdf2:sha256:150000$kBqM0IMB$2a01f42e5a8bb534d9776c29e5964b2095cf640aefc3ab108bce8073154f7185', '超级管理员', 'admin@admin.com', '0', '1000000096000.0', '0', True, 1])
+2021-05-04 09:54:57,519 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['289119', 'user1', 'pbkdf2:sha256:150000$KQAAxnuL$0b9f079e79929fa4a2ca25636891f69b9966b930c4a800c724cb7e113a80814b', '', '', '2', '105000.0', '4', True, 5])
+2021-05-04 09:54:57,524 peewee       DEBUG    ('INSERT INTO `flow` (`time`, `send_id`, `receive_id`, `money`, `status`) VALUES (%s, %s, %s, %s, %s)', ['Tue May  4 09:54:57 2021', '000000', '289119', '5000', True])
+2021-05-04 09:54:57,530 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:54:57] "[37mPOST /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:55:07,160 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 09:55:07,167 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:55:07] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-04 09:55:07,191 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:55:07] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-04 09:55:19,849 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['shi123', 1, 0])
+2021-05-04 09:55:19,991 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:55:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-04 09:55:19,994 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 09:55:20,009 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:55:20] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 09:55:20,074 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 09:55:20,092 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:55:20] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 09:57:22,177 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 09:57:22,189 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:57:22] "[37mGET /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:57:43,939 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 09:57:43,961 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['246363', 1, 0])
+2021-05-04 09:57:43,962 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['717670', 'shi123', 'pbkdf2:sha256:150000$ZidnjQUd$e5af32b5fbe9541af4b64ec2de8f594f31396742bc69a40a0b6449173ec04bd9', '', '', '1', '112500.0', '1', True, 3])
+2021-05-04 09:57:43,967 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['246363', 'wandow', 'pbkdf2:sha256:150000$Mbt7SWEX$09a494f2c46ea278a0554f018e034911f8cb41af9a5b79c7fa0eb91da4ee0284', '', '', '1', '85500.0', '1', True, 4])
+2021-05-04 09:57:43,970 peewee       DEBUG    ('INSERT INTO `flow` (`time`, `send_id`, `receive_id`, `money`, `status`) VALUES (%s, %s, %s, %s, %s)', ['Tue May  4 09:57:43 2021', '717670', '246363', '1000', True])
+2021-05-04 09:57:43,975 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:57:43] "[37mPOST /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:57:58,757 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 09:57:58,762 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['000000', 1, 0])
+2021-05-04 09:57:58,764 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['717670', 'shi123', 'pbkdf2:sha256:150000$ZidnjQUd$e5af32b5fbe9541af4b64ec2de8f594f31396742bc69a40a0b6449173ec04bd9', '', '', '1', '102500.0', '1', True, 3])
+2021-05-04 09:57:58,768 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['000000', 'widespeed', 'pbkdf2:sha256:150000$kBqM0IMB$2a01f42e5a8bb534d9776c29e5964b2095cf640aefc3ab108bce8073154f7185', '超级管理员', 'admin@admin.com', '0', '1000000106000.0', '0', True, 1])
+2021-05-04 09:57:58,774 peewee       DEBUG    ('INSERT INTO `flow` (`time`, `send_id`, `receive_id`, `money`, `status`) VALUES (%s, %s, %s, %s, %s)', ['Tue May  4 09:57:58 2021', '717670', '000000', '10000', True])
+2021-05-04 09:57:58,780 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:57:58] "[37mPOST /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 09:58:48,378 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 09:58:48,414 werkzeug     INFO     127.0.0.1 - - [04/May/2021 09:58:48] "[37mGET /open_account HTTP/1.1[0m" 200 -
+2021-05-04 10:06:59,999 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 10:07:00,036 werkzeug     INFO      * Restarting with stat
+2021-05-04 10:11:57,540 werkzeug     INFO      * Restarting with stat
+2021-05-04 10:11:57,966 werkzeug     WARNING   * Debugger is active!
+2021-05-04 10:11:57,969 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 10:11:57,976 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 10:11:59,881 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:11:59,974 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:11:59] "[37mGET /close_account HTTP/1.1[0m" 200 -
+2021-05-04 10:12:04,928 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:12:04,960 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:12:04] "[37mGET /open_account HTTP/1.1[0m" 200 -
+2021-05-04 10:12:07,200 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:12:07,207 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:12:07] "[37mGET /close_account HTTP/1.1[0m" 200 -
+2021-05-04 10:12:48,969 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:12:48,983 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['123456', 1, 0])
+2021-05-04 10:12:49,033 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:12:49] "[35m[1mPOST /close_account HTTP/1.1[0m" 500 -
+2021-05-04 10:12:49,053 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:12:49] "[37mGET /close_account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-05-04 10:12:49,056 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:12:49] "[37mGET /close_account?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-05-04 10:12:49,056 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:12:49] "[37mGET /close_account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-05-04 10:12:49,217 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:12:49] "[37mGET /close_account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-04 10:12:49,221 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:12:49] "[37mGET /close_account?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-05-04 10:12:49,328 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:12:49] "[37mGET /close_account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-04 10:14:11,159 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 10:14:11,205 werkzeug     INFO      * Restarting with stat
+2021-05-04 10:14:11,703 werkzeug     WARNING   * Debugger is active!
+2021-05-04 10:14:11,706 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 10:14:11,713 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 10:14:13,583 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:14:13,600 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['123456', 1, 0])
+2021-05-04 10:14:13,622 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:14:13] "[37mPOST /close_account HTTP/1.1[0m" 200 -
+2021-05-04 10:14:21,238 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:14:21,242 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['000000', 1, 0])
+2021-05-04 10:14:21,243 peewee       DEBUG    ('DELETE FROM `user` WHERE (`user`.`id` = %s)', [1])
+2021-05-04 10:14:21,250 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:14:21] "[37mPOST /close_account HTTP/1.1[0m" 200 -
+2021-05-04 10:18:07,425 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 10:18:07,455 werkzeug     INFO      * Restarting with stat
+2021-05-04 10:18:07,900 werkzeug     WARNING   * Debugger is active!
+2021-05-04 10:18:07,903 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 10:18:07,913 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 10:18:10,540 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:18:10,552 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['000000', 1, 0])
+2021-05-04 10:18:10,576 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:18:10] "[37mPOST /close_account HTTP/1.1[0m" 200 -
+2021-05-04 10:18:32,302 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:18:32,306 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['000000', 1, 0])
+2021-05-04 10:18:32,312 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:18:32] "[37mPOST /close_account HTTP/1.1[0m" 200 -
+2021-05-04 10:18:32,319 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 10:18:32,365 werkzeug     INFO      * Restarting with stat
+2021-05-04 10:18:32,835 werkzeug     WARNING   * Debugger is active!
+2021-05-04 10:18:32,838 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 10:18:32,846 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 10:18:52,109 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:18:52,140 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:18:52] "[37mGET /open_account HTTP/1.1[0m" 200 -
+2021-05-04 10:18:52,682 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:18:52,701 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:18:52] "[37mGET /close_account HTTP/1.1[0m" 200 -
+2021-05-04 10:18:55,260 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:18:55,268 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['000000', 1, 0])
+2021-05-04 10:18:55,270 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:18:55] "[37mPOST /close_account HTTP/1.1[0m" 200 -
+2021-05-04 10:19:17,112 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:19:17,128 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:19:17] "[37mGET /open_account HTTP/1.1[0m" 200 -
+2021-05-04 10:19:19,835 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:19:19,848 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:19:19] "[37mGET /close_account HTTP/1.1[0m" 200 -
+2021-05-04 10:19:37,146 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:19:37,162 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['246363', 1, 0])
+2021-05-04 10:19:37,165 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:19:37] "[37mPOST /close_account HTTP/1.1[0m" 200 -
+2021-05-04 10:19:46,698 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:19:46,712 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:19:46] "[37mGET /close_account HTTP/1.1[0m" 200 -
+2021-05-04 10:19:47,081 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:19:47,085 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:19:47] "[37mGET /open_account HTTP/1.1[0m" 200 -
+2021-05-04 10:20:05,613 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:20:05,737 peewee       DEBUG    ('INSERT INTO `user` (`account_id`, `username`, `password`, `fullname`, `email`, `authority`, `money`, `opener`, `status`) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)', ['298800', 'user2', 'pbkdf2:sha256:150000$ibzJHql0$b833170cfe09f881183b9eaae41e5a789e9e926bfcab0c521b06bd45261b67d8', '', '', '2', '100000', '3', True])
+2021-05-04 10:20:05,752 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:20:05] "[37mPOST /open_account HTTP/1.1[0m" 200 -
+2021-05-04 10:20:14,404 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [3, 1, 0])
+2021-05-04 10:20:14,410 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:20:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-04 10:20:14,437 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:20:14] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-04 10:20:22,320 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['user1', 1, 0])
+2021-05-04 10:20:22,421 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:20:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-04 10:20:22,424 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 10:20:22,447 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:20:22] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 10:20:22,515 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 10:20:22,537 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:20:22] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 10:20:24,951 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 10:20:24,958 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:20:24] "[37mGET /search_money HTTP/1.1[0m" 200 -
+2021-05-04 10:20:27,353 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 10:20:27,375 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:20:27] "[37mGET /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 10:20:31,160 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 10:20:31,169 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:20:31] "[37mGET /close_account HTTP/1.1[0m" 200 -
+2021-05-04 10:20:37,585 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 10:20:37,589 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['298800', 1, 0])
+2021-05-04 10:20:37,591 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:20:37] "[37mPOST /close_account HTTP/1.1[0m" 200 -
+2021-05-04 10:20:39,266 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 10:20:39,271 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:20:39] "[37mGET /close_account HTTP/1.1[0m" 200 -
+2021-05-04 10:20:43,514 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 10:20:43,520 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:20:43] "[37mGET /open_account HTTP/1.1[0m" 200 -
+2021-05-04 10:20:50,772 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 10:20:50,778 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:20:50] "[37mPOST /open_account HTTP/1.1[0m" 200 -
+2021-05-04 10:22:20,468 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\models.py', reloading
+2021-05-04 10:22:20,502 werkzeug     INFO      * Restarting with stat
+2021-05-04 10:22:20,932 werkzeug     WARNING   * Debugger is active!
+2021-05-04 10:22:20,935 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 10:22:20,942 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 10:34:30,471 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 10:34:30,499 werkzeug     INFO      * Restarting with stat
+2021-05-04 10:35:57,031 werkzeug     INFO      * Restarting with stat
+2021-05-04 10:35:57,461 werkzeug     WARNING   * Debugger is active!
+2021-05-04 10:35:57,463 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 10:35:57,471 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 10:36:02,546 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 10:36:02,578 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:36:02] "[37mGET /open_account HTTP/1.1[0m" 200 -
+2021-05-04 10:36:16,511 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 10:36:16,546 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:36:16] "[37mPOST /open_account HTTP/1.1[0m" 200 -
+2021-05-04 10:36:22,392 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 10:36:22,407 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:36:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-04 10:36:22,438 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:36:22] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-04 10:36:27,365 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['widespeed', 1, 0])
+2021-05-04 10:36:27,511 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:36:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-04 10:36:27,517 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 10:36:27,557 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:36:27] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 10:36:27,629 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 10:36:27,639 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:36:27] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 10:36:30,385 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 10:36:30,390 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:36:30] "[37mGET /open_account HTTP/1.1[0m" 200 -
+2021-05-04 10:36:40,004 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 10:36:40,008 peewee       DEBUG    ('INSERT INTO `user` (`account_id`, `status`) VALUES (%s, %s)', ['548064', True])
+2021-05-04 10:36:40,110 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['548064', 'user3', 'pbkdf2:sha256:150000$RH016dai$15294ec062b02661a23aec35333f4b9d397ce7ea7adf53f1856578d908319fb8', '', '', '1', '10000', '1', True, 10])
+2021-05-04 10:36:40,119 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:36:40] "[37mPOST /open_account HTTP/1.1[0m" 200 -
+2021-05-04 10:37:06,823 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 10:37:06,837 peewee       DEBUG    ('INSERT INTO `user` (`account_id`, `status`) VALUES (%s, %s)', ['005545', True])
+2021-05-04 10:37:06,937 peewee       DEBUG    ('UPDATE `user` SET `account_id` = %s, `username` = %s, `password` = %s, `fullname` = %s, `email` = %s, `authority` = %s, `money` = %s, `opener` = %s, `status` = %s WHERE (`user`.`id` = %s)', ['005545', 'user4', 'pbkdf2:sha256:150000$lODM2Cc3$4728ca9ffece953b0350353190988976b9fe39cf38b76b1dc1aaf07ace572796', '', '', '1', '10000', '1', True, 11])
+2021-05-04 10:37:06,941 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:37:06] "[37mPOST /open_account HTTP/1.1[0m" 200 -
+2021-05-04 10:38:53,291 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 10:38:53,319 werkzeug     INFO      * Restarting with stat
+2021-05-04 10:38:53,770 werkzeug     WARNING   * Debugger is active!
+2021-05-04 10:38:53,773 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 10:38:53,781 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 10:47:29,945 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\utils.py', reloading
+2021-05-04 10:47:29,975 werkzeug     INFO      * Restarting with stat
+2021-05-04 10:47:30,432 werkzeug     WARNING   * Debugger is active!
+2021-05-04 10:47:30,434 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 10:47:30,443 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 10:54:11,980 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 10:54:12,012 werkzeug     INFO      * Restarting with stat
+2021-05-04 10:54:12,478 werkzeug     WARNING   * Debugger is active!
+2021-05-04 10:54:12,480 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 10:54:12,489 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 10:54:35,815 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 10:54:35,856 peewee       DEBUG    ('SELECT %s FROM `user` AS `t1`', [None])
+2021-05-04 10:54:35,916 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:54:35] "[35m[1mPOST /open_account HTTP/1.1[0m" 500 -
+2021-05-04 10:54:35,952 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:54:35] "[37mGET /open_account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-05-04 10:54:35,955 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:54:35] "[37mGET /open_account?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-05-04 10:54:35,962 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:54:35] "[37mGET /open_account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-05-04 10:54:36,057 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:54:36] "[37mGET /open_account?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-05-04 10:54:36,100 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:54:36] "[37mGET /open_account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-04 10:54:36,189 werkzeug     INFO     127.0.0.1 - - [04/May/2021 10:54:36] "[37mGET /open_account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-04 11:00:58,072 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 11:00:58,107 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:00:58,543 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:00:58,546 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:00:58,554 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:01:08,719 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:01:08,745 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:01:09,201 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:01:09,204 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:01:09,211 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:01:35,380 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:01:35,810 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:01:35,813 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:01:35,821 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:01:37,231 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:01:37,253 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:01:37] "[32mGET / HTTP/1.1[0m" 302 -
+2021-05-04 11:01:37,257 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:01:37,402 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:01:37] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 11:01:37,546 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:01:37,567 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:01:37] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 11:01:40,112 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:01:40,126 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:01:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-04 11:01:40,147 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:01:40] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-04 11:01:46,906 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['widespeed', 1, 0])
+2021-05-04 11:01:47,059 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:01:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-04 11:01:47,062 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:01:47,077 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:01:47] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 11:01:47,142 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:01:47,146 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:01:47] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 11:03:08,355 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:03:08,385 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:03:08,823 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:03:08,826 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:03:08,834 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:03:56,604 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:03:56,651 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:03:57,095 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:03:57,097 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:03:57,105 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:04:11,329 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:04:11,364 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:04:11,809 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:04:11,812 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:04:11,819 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:05:59,468 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:05:59,496 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:05:59,939 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:05:59,942 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:05:59,949 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:06:11,134 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:06:11,176 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:06:11,618 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:06:11,621 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:06:11,628 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:09:45,689 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:09:46,121 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:09:46,124 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:09:46,131 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:09:52,009 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:09:52,062 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:09:52] "[37mGET /open_account HTTP/1.1[0m" 200 -
+2021-05-04 11:10:06,428 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:10:06,442 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`account_id` = %s) LIMIT %s OFFSET %s', ['406192', 1, 0])
+2021-05-04 11:10:06,461 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['user1', 1, 0])
+2021-05-04 11:10:06,463 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:10:06] "[37mPOST /open_account HTTP/1.1[0m" 200 -
+2021-05-04 11:10:35,649 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:10:35,664 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:10:35] "[37mGET /search_money HTTP/1.1[0m" 200 -
+2021-05-04 11:10:38,072 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:10:38,114 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:10:38] "[37mGET /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 11:10:40,637 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:10:40,645 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:10:40] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 11:10:40,694 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:10:40,713 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:10:40] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 11:12:46,018 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:12:46,052 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:12:46,556 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:12:46,558 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:12:46,566 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:12:58,759 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:12:58,790 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:12:59,230 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:12:59,233 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:12:59,241 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:14:07,362 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:14:07,390 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:14:07,825 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:14:07,827 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:14:07,835 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:17:17,859 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:17:17,894 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:17:18,345 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:17:18,348 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:17:18,356 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:17:39,700 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:17:39,731 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:17:40,190 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:17:40,193 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:17:40,200 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:18:01,536 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:18:01,564 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:18:02,020 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:18:02,023 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:18:02,030 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:18:10,165 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:18:10,191 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:18:10,640 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:18:10,643 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:18:10,650 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:21:28,772 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:21:28,802 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:21:29,244 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:21:29,246 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:21:29,254 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:21:41,446 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:21:41,494 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:21:41,936 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:21:41,938 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:21:41,946 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:21:51,099 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:21:51,129 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:21:51,566 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:21:51,568 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:21:51,576 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:22:10,884 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\models.py', reloading
+2021-05-04 11:22:10,924 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:22:11,365 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:22:11,368 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:22:11,375 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:23:03,197 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\utils.py', reloading
+2021-05-04 11:23:03,227 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:34:57,157 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:34:57,602 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:34:57,605 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:34:57,613 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:34:59,614 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:34:59,628 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 11:34:59,631 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 11:34:59,633 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)', ['000000'])
+2021-05-04 11:34:59,634 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)', ['000000'])
+2021-05-04 11:34:59,759 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:34:59] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 11:34:59,811 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:34:59,837 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:34:59] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 11:39:43,585 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 11:39:43,648 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:39:44,122 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:39:44,125 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:39:44,134 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:39:45,001 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:39:45,007 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 11:39:45,011 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 11:39:45,012 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)', ['000000'])
+2021-05-04 11:39:45,013 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)', ['000000'])
+2021-05-04 11:39:45,062 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:39:45] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-05-04 11:39:45,101 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:39:45] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-05-04 11:39:45,104 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:39:45] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-05-04 11:39:45,110 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:39:45] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-05-04 11:39:45,200 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:39:45] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-05-04 11:39:45,264 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:39:45] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-04 11:39:45,360 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:39:45] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-04 11:40:12,708 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:40:12,713 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 11:40:12,720 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 11:40:12,723 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)', ['000000'])
+2021-05-04 11:40:12,725 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)', ['000000'])
+2021-05-04 11:40:12,736 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:40:12] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+2021-05-04 11:40:12,761 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:40:12] "[37mGET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2021-05-04 11:40:12,763 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:40:12] "[37mGET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2021-05-04 11:40:12,764 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:40:12] "[37mGET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2021-05-04 11:40:12,818 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:40:12] "[37mGET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2021-05-04 11:40:12,878 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:40:12] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-04 11:40:13,006 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:40:13] "[37mGET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2021-05-04 11:40:13,619 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 11:40:13,656 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:40:14,099 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:40:14,102 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:40:14,111 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:40:17,614 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:40:17,621 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 11:40:17,622 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 11:40:17,622 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)', ['000000'])
+2021-05-04 11:40:17,623 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)', ['000000'])
+2021-05-04 11:40:17,646 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:40:17] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 11:40:17,705 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:40:17,722 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:40:17] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 11:40:33,898 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:40:33,966 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:40:33] "[37mGET /open_account HTTP/1.1[0m" 200 -
+2021-05-04 11:40:34,606 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:40:34,630 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:40:34] "[37mGET /close_account HTTP/1.1[0m" 200 -
+2021-05-04 11:40:35,119 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:40:35,134 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:40:35] "[37mGET /search_money HTTP/1.1[0m" 200 -
+2021-05-04 11:40:36,050 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:40:36,095 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:40:36] "[37mGET /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 11:47:12,812 werkzeug     INFO      * Detected change in 'D:\\Python_project\\Web-based Banking System\\app\\main\\views.py', reloading
+2021-05-04 11:47:12,847 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:56:50,842 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:56:51,271 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:56:51,273 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:56:51,281 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:57:21,499 werkzeug     INFO      * Restarting with stat
+2021-05-04 11:57:21,927 werkzeug     WARNING   * Debugger is active!
+2021-05-04 11:57:21,929 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 11:57:21,937 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 11:57:23,508 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:57:23,519 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:57:23] "[32mGET / HTTP/1.1[0m" 302 -
+2021-05-04 11:57:23,524 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:57:23,538 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 11:57:23,539 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 11:57:23,540 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)', ['000000'])
+2021-05-04 11:57:23,541 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)', ['000000'])
+2021-05-04 11:57:23,560 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:57:23] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 11:57:23,635 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:57:23,642 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:57:23] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 11:57:24,808 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 11:57:24,817 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE ((`t1`.`send_id` = %s) OR (`t1`.`receive_id` = %s))', ['000000', '000000'])
+2021-05-04 11:57:24,818 werkzeug     INFO     127.0.0.1 - - [04/May/2021 11:57:24] "[37mGET /search_flow HTTP/1.1[0m" 200 -
+2021-05-04 12:00:01,599 werkzeug     INFO      * Restarting with stat
+2021-05-04 12:00:02,024 werkzeug     WARNING   * Debugger is active!
+2021-05-04 12:00:02,027 werkzeug     INFO      * Debugger PIN: 159-196-512
+2021-05-04 12:00:02,034 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-05-04 12:00:04,287 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:04,293 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 12:00:04,294 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 12:00:04,295 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)', ['000000'])
+2021-05-04 12:00:04,296 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)', ['000000'])
+2021-05-04 12:00:04,317 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:04] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 12:00:04,363 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:04,379 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:04] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 12:00:08,987 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:09,001 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:09] "[37mGET /open_account HTTP/1.1[0m" 200 -
+2021-05-04 12:00:10,507 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:10,527 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:10] "[37mGET /close_account HTTP/1.1[0m" 200 -
+2021-05-04 12:00:12,125 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:12,140 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:12] "[37mGET /search_money HTTP/1.1[0m" 200 -
+2021-05-04 12:00:13,848 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:13,859 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:13] "[37mGET /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 12:00:15,519 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:15,527 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE ((`t1`.`send_id` = %s) OR (`t1`.`receive_id` = %s))', ['000000', '000000'])
+2021-05-04 12:00:15,529 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:15] "[37mGET /search_flow HTTP/1.1[0m" 200 -
+2021-05-04 12:00:16,549 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:16,554 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:16] "[37mGET /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 12:00:17,333 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:17,349 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:17] "[37mGET /search_money HTTP/1.1[0m" 200 -
+2021-05-04 12:00:18,614 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:18,618 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 12:00:18,620 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 12:00:18,621 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)', ['000000'])
+2021-05-04 12:00:18,622 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)', ['000000'])
+2021-05-04 12:00:18,623 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:18] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 12:00:18,664 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:18,668 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:18] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 12:00:20,118 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:20,134 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:20] "[37mGET /search_money HTTP/1.1[0m" 200 -
+2021-05-04 12:00:20,602 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:20,605 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE ((`t1`.`send_id` = %s) OR (`t1`.`receive_id` = %s))', ['000000', '000000'])
+2021-05-04 12:00:20,606 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:20] "[37mGET /search_flow HTTP/1.1[0m" 200 -
+2021-05-04 12:00:21,258 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:21,273 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:21] "[37mGET /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 12:00:25,343 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2021-05-04 12:00:25,347 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2021-05-04 12:00:25,426 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:25] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-05-04 12:00:34,159 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['user1', 1, 0])
+2021-05-04 12:00:34,312 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2021-05-04 12:00:34,321 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 12:00:34,323 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 12:00:34,324 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 12:00:34,325 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)', ['000000'])
+2021-05-04 12:00:34,325 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)', ['000000'])
+2021-05-04 12:00:34,327 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:34] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 12:00:34,390 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 12:00:34,395 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:34] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2021-05-04 12:00:35,623 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 12:00:35,627 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE ((`t1`.`send_id` = %s) OR (`t1`.`receive_id` = %s))', ['289119', '289119'])
+2021-05-04 12:00:35,629 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:35] "[37mGET /search_flow HTTP/1.1[0m" 200 -
+2021-05-04 12:00:36,568 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 12:00:36,582 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:36] "[37mGET /transfer_account HTTP/1.1[0m" 200 -
+2021-05-04 12:00:37,333 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 12:00:37,338 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:37] "[37mGET /search_money HTTP/1.1[0m" 200 -
+2021-05-04 12:00:39,306 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 12:00:39,308 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 12:00:39,311 peewee       DEBUG    ('SELECT COUNT(1) FROM (SELECT 1 FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)) AS `_wrapped`', ['000000'])
+2021-05-04 12:00:39,311 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`send_id` = %s)', ['000000'])
+2021-05-04 12:00:39,312 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`time`, `t1`.`send_id`, `t1`.`receive_id`, `t1`.`money`, `t1`.`status` FROM `flow` AS `t1` WHERE (`t1`.`receive_id` = %s)', ['000000'])
+2021-05-04 12:00:39,314 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:39] "[37mGET /index HTTP/1.1[0m" 200 -
+2021-05-04 12:00:39,360 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`account_id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`authority`, `t1`.`money`, `t1`.`opener`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [5, 1, 0])
+2021-05-04 12:00:39,375 werkzeug     INFO     127.0.0.1 - - [04/May/2021 12:00:39] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -

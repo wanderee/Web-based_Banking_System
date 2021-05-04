@@ -21,7 +21,7 @@ class CloseAccountForm(FlaskForm):
 
 class TransferAccountForm(FlaskForm):
     account_id = StringField('接收账号', validators=[DataRequired(message='请输入6位的账号'), Length(6, 6, message='长度不正确')])
-    money_change = StringField('接收账号', validators=[DataRequired(message='请输入金额'), Length(0, 16, message='长度不正确')])
+    money_change = StringField('转账金额', validators=[DataRequired(message='请输入金额'), Length(0, 16, message='长度不正确')])
     submit = SubmitField('转账')
 
 

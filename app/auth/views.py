@@ -9,21 +9,14 @@ from flask_login import login_user, logout_user, login_required
 def login():
     form = LoginForm()
     if form.validate_on_submit():
-        try:
-            print(form.username.data)
-            print(form.password.data)
-            print(form.rememberme.data)
-            print('-----')
-            user = User.get(User.username == form.username.data)
-            print('-----')
-            print(user.username)
-            print(user.password)
+        user = User.get_or_none(User.username == form.username.data)
+        if user is not None:
             if user.verify_password(form.password.data):
-                login_user(user, form.rememberme.data)
+                login_user(user)
                 return redirect(request.args.get('next') or url_for('main.index'))
             else:
                 flash('用户名或密码错误')
-        except:
+        else:
             flash('用户名或密码错误')
     return render_template('auth/login.html', form=form)
 
